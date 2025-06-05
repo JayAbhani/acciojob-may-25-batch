@@ -1,0 +1,20 @@
+
+
+
+
+variables
+----------------
+var
+let 
+const
+
+re-declaration
+re-assignment
+scope
+
+            re-declaration              re-assignment
+            --------------              -------------
+var             ✅                            ✅
+let             ❌                            ✅
+const           ❌                            ❌
+

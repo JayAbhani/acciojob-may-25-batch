@@ -1,0 +1,34 @@
+
+
+1. if statement
+
+if(condition) {
+    //body
+}
+
+
+
+
+2. else
+
+
+3. else if
+
+
+
+
+
+4. switch
+5. ternary operator
+
+
+var a = "5"
+var b = Number(a);
+var c = parseInt(a);
+
+String()
+Boolean()
+
+
+Math.pow(2,5);
+Math.pow(9,3);

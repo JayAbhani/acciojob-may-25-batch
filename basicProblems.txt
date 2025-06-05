@@ -1,0 +1,128 @@
+
+
+problem 1 - find the largest of two numbers
+
+1. input two numbers num1 and num2
+2. if(num1 > num2)
+    num1 is greater
+   else if(num2 > num1)
+   num2 is greater
+   else
+   they are equal
+
+
+problem 2 - find even or odd
+
+1. take a number
+2. divide it by 2
+3. if remainder is 0 (num % 2 == 0)
+    even
+4. else odd
+
+
+problem 3 - Calculate Sum of First N Natural Numbers
+
+
+n = 4
+sum = 10
+
+
+
+
+
+n = 4
+1 * 2 * 3 * 4
+
+fact = 1
+for(i = 1 to n) {
+    fact = fact * i
+}
+return fact;    //24
+
+
+
+
+n = 532
+
+532 / 10
+53 / 10
+5 / 10
+0
+
+count = 0;
+
+while(num != 0) {
+    num = num / 10;     0
+    count++             3
+}
+
+return count;
+
+
+
+
+
+a = 5
+b = 3
+
+temp = a
+
+a = b
+b = temp
+
+updated a and b
+
+
+
+
+n = 7
+let isPrime = true
+for(i = 2 to n-1) {
+    if(n % i == 0) {
+        isPrime = false
+        break
+    }
+}
+print(isPrime)
+
+
+532
+rev = 0
+while(n != 0) {
+    digit = n % 10;
+    rev = rev * 10 + digit;
+    n = n / 10;
+}
+
+print(rev)
+
+
+
+
+
+n = 3
+
+1 * 2 * 3
+
+fact = 1
+
+for(i = 1 to n)
+    fact = fact * i
+
+n = 5
+*
+**
+***
+****
+*****
+
+for(i = 1 to n) 
+    for(j = 1 to i)
+        print(*)
+    orint(new line)
+
+1
+12
+123
+1234
+12345

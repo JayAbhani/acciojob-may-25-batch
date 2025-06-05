@@ -1,0 +1,56 @@
+
+
+function greet() {
+    //body
+    console.log("hello");
+}
+
+
+
+
+let a = 2;
+cl(a);                  //2           
+
+function one() {
+    cl(a);          //2      
+    let b = 4;
+    cl(b);      //4      
+}
+
+cl(b);      //error    
+
+if(true) {
+    let c = 6;
+    cl(c);      //6 
+}
+
+cl(c);              //error
+
+function two() {
+    if(true) {
+        let d = 8;
+        cl(d);      //8 
+    }
+    cl(d);      //error     
+}
+
+cl(d);          //error    
+
+
+var
+-----
+1. if var declaration is done globally, scope becomes global
+
+2. if var declaration is done inside a function, scope become that function
+
+3. if var declaration is done inside a block , scope depends on parent. if parent is a function, scope becomes that function. If parent is global, scope becomes global.
+
+
+
+let and const
+-------------
+1. if let declaration is done globally, scope becomes global.
+
+2. if let declaration is done inside a function, scope becomes that function.
+
+3. if let declaration is done inside a block, scope becomes that block.

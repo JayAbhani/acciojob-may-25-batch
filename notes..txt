@@ -1,0 +1,79 @@
+
+
+n = 5
+
+*****
+*****
+*****
+*****
+*****
+
+for(i = 1 to 5)
+    for(j = 1 to 5)
+        print(*)
+    print(new line)
+
+
+n = 4
+11111
+11111
+11111
+11111
+
+for(i = 1 to n) {
+    for(j = 1 to 5)
+        print(1)
+    print(new line)
+}
+
+
+
+n = 5
+*
+**
+***
+****
+*****
+
+for(i = 1 to n)
+    for(j = 1 to i) 
+        print(*)
+    print(new line)
+
+
+i
+===
+1   2   3   4   5
+
+*
+**
+***
+****
+*****
+
+
+
+n = 5
+*****
+****
+***
+**
+*
+
+for(i = n to 1) 
+    for(j = 1 to i)
+        print(*)
+    print(new line)
+
+
+n = 5
+1
+12
+123
+1234
+12345
+
+for(i = 1 to n)
+    for(j = 1 to i)
+        print(j)
+    print(new line)
